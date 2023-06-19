@@ -1,0 +1,111 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "family": [
+    {
+      "name": "Basarat Ali Ansari",
+      "gender": "male",
+      "email": "alibasarat@gmail.com",
+      "age": 59,
+      "address": "Barwadih",
+      "contact": 8102067504,
+      "id": 1
+    },
+    {
+      "name": "Nikhat Perween",
+      "gender": "female",
+      "email": "perweennikhat@gmail.com",
+      "age": 50,
+      "address": "Daltonganj",
+      "contact": 9430129521,
+      "id": 2
+    },
+    {
+      "name": "Abdul Majid Alam",
+      "gender": "male",
+      "email": "abdulbrwdalam@gmail.com",
+      "age": 32,
+      "address": "Bangalore",
+      "contact": 6299634638,
+      "id": 3
+    },
+    {
+      "name": "Fatma Praween",
+      "gender": "female",
+      "email": "praweenfatma@gmail.com",
+      "age": 30,
+      "address": "Barwadih",
+      "contact": 9771668998,
+      "id": 4
+    },
+    {
+      "name": "Abdul Shaffique Alam",
+      "gender": "male",
+      "email": "shaffiquealam@gmail.com",
+      "age": 28,
+      "address": "Ranchi",
+      "contact": 8840258845,
+      "id": 5
+    },
+    {
+      "name": "Perwez Mustafa",
+      "gender": "male",
+      "email": "mustafaperwez@gmail.com",
+      "age": 35,
+      "address": "Haraiya",
+      "contact": 8797595915,
+      "id": 6
+    },
+    {
+      "name": "Shama Perween",
+      "gender": "female",
+      "email": "perweenshama@gmail.com",
+      "age": 26,
+      "address": "Nawada Garhwa",
+      "contact": 9608879997,
+      "id": 7
+    },
+    {
+      "name": "Noorii Khatoon",
+      "gender": "female",
+      "email": "khatoonnoorii@gmail.com",
+      "age": 26,
+      "address": "Garhwa",
+      "contact": 8271924767,
+      "id": 8
+    },
+    {
+      "name": "Mehmed Arsalan",
+      "gender": "male",
+      "email": "mehmedarsalan@gmail.com",
+      "age": 1,
+      "address": "Garhwa",
+      "contact": 8271924767,
+      "id": 9
+    },
+    {
+      "name": "Anam Perwez",
+      "gender": "female",
+      "email": "perwezanam@gmail.com",
+      "age": 0.1,
+      "address": "Nawada Garhwa",
+      "contact": 9608879997,
+      "id": 10
+    }
+  ]
+}

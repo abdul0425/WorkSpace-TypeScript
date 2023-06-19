@@ -1,0 +1,38 @@
+<div class="container">
+  <form #myForm="ngForm" (submit)="onSubmit(myForm)">
+    <div >
+      <label for="">Name</label>
+      <input
+        type="text"
+        placeholder="Name"
+        name="fullname"
+        ngModel
+        required=""
+        #name="ngModel"
+      />
+      
+    </div>
+    <div ><span *ngIf="name.touched && name.invalid">*required</span></div>
+    <br /><br />
+    <div>
+      <label for="">Email</label>
+      <input type="email" placeholder="" name="email" ngModel required="" />
+    </div>
+    <br /><br />
+    <div>
+      <label for="">Address</label>
+      <textarea
+        name=""
+        id=""
+        cols="20"
+        rows="2"
+        placeholder="Address"
+        name="address"
+        ngModel
+        required=""
+      ></textarea>
+    </div>
+    <br /><br />
+    <button>Submit</button>
+  </form>
+</div>

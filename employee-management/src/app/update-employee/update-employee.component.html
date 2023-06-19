@@ -1,0 +1,56 @@
+<div class="container">
+  <form #myForm="ngForm" (ngSubmit)="updateEmployee(myForm)">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Name</label>
+      <input
+        type="text"
+        class="form-control"
+        aria-describedby="emailHelp"
+        [(ngModel)]="employee.employeeName"
+        name="employeeName"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Gender</label>
+      <input
+        type="text"
+        class="form-control"
+        aria-describedby="emailHelp"
+        [(ngModel)]="employee.gender"
+        name="gender"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email</label>
+      <input
+        type="email"
+        class="form-control"
+        aria-describedby="emailHelp"
+        [(ngModel)]="employee.email"
+        name="email"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Address</label>
+      <input
+        type="text"
+        class="form-control"
+        aria-describedby="emailHelp"
+        [(ngModel)]="employee.address"
+        name="address"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Contact</label>
+      <input
+        type="text"
+        class="form-control"
+        aria-describedby="emailHelp"
+        [(ngModel)]="employee.contact"
+        name="contact"
+      />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>

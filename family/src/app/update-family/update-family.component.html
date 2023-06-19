@@ -1,0 +1,75 @@
+<div class="container">
+  <h4>Update Details :</h4>
+  <hr />
+  <form #myFamily="ngForm" (submit)="submitForm(myFamily)">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Name</label>
+      <input
+        type="text"
+        class="form-control"
+        [(ngModel)]="family.name"
+        name="name"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Gender :</label>
+      <input
+        class="radio"
+        [(ngModel)]="family.gender"
+        type="radio"
+        name="gender"
+        id="male"
+        value="male"
+        name="gender"
+      />Male
+      <input
+        class="radio"
+        [(ngModel)]="family.gender"
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+        name="gender"
+      />Female
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email</label>
+      <input
+        type="email"
+        [(ngModel)]="family.email"
+        class="form-control"
+        name="email"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Age</label>
+      <input
+        type="number"
+        [(ngModel)]="family.age"
+        class="form-control"
+        name="age"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Address</label>
+      <input
+        type="text"
+        [(ngModel)]="family.address"
+        class="form-control"
+        name="address"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Contact</label>
+      <input
+        type="number"
+        ngModel
+        class="form-control"
+        [(ngModel)]="family.contact"
+        name="contact"
+      />
+    </div>
+
+    <button type="submit" class="btn btn-primary" >Submit</button>
+  </form>
+</div>

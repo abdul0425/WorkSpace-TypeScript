@@ -1,0 +1,27 @@
+<table>
+  <tr>
+    <th>Product_Id</th>
+    <th>Product_Name</th>
+    <th>Product_Brand</th>
+    <th>Product_Size</th>
+    <th>Product_Cost</th>
+    <th>Product_Image</th>
+  </tr>
+  <tr *ngFor="let product of products; let i = index">
+    <td>{{ i + 1 }}</td>
+    <td>{{ product.P_Name }}</td>
+    <td>{{ product.P_Brand }}</td>
+    <td>{{ product.P_Size }}</td>
+    <td>{{ product.P_Price | currency }}</td>
+    <td>{{ product.P_Image }}</td>
+  </tr>
+</table>
+<hr />
+<br />
+<input type="number" #ref1 />
+<br><br>
+<input type="number" #ref2 />
+<br><br>
+<button (click)="addition(ref1.value, ref2.value)">Add</button>
+<br>
+<h2>Result : {{result}}</h2>

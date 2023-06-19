@@ -1,0 +1,66 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "customers": [
+    {
+      "name": "Basarat Ali Ansari",
+      "gender": "male",
+      "age": 59,
+      "email": "arshadalam2010@gmail.com",
+      "address": "Vill - Khura, PO PS - Barwadih",
+      "contact": 9430129521,
+      "id": 1
+    },
+    {
+      "name": "Sasthi Mandal",
+      "gender": "male",
+      "age": 30,
+      "email": "sasthimandal@gmail.com",
+      "address": "Malda",
+      "contact": 9867542135,
+      "id": 2
+    },
+    {
+      "name": "Anjani Kumari",
+      "gender": "female",
+      "age": 27,
+      "email": "kumarianjani@gmail.com",
+      "address": "Patna",
+      "contact": 6258746132,
+      "id": 3
+    },
+    {
+      "name": "Suma Patil",
+      "gender": "female",
+      "email": "patilsuma@gmail.com",
+      "age": 26,
+      "address": "Banashankri Bangalore",
+      "contact": 9867426531,
+      "id": 4
+    },
+    {
+      "name": "Rivu Naskar",
+      "gender": "male",
+      "age": 30,
+      "email": "naskarrivu@gmail.com",
+      "address": "Baruipur Kolkata",
+      "contact": 6357841265,
+      "id": 5
+    }
+  ]
+}
